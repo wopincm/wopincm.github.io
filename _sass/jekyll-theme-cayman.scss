@@ -108,8 +108,10 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  position: relative;
+  background-color: #272d4e;
+  z-index: 0;
+  background-image: radial-gradient(circle farthest-side at right bottom,#414b82 34%,#272d4e 100%);
 
   @include large {
     padding: 5rem 6rem;
