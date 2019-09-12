@@ -111,7 +111,7 @@ a {
   position: relative;
   background-color: #272d4e;
   z-index: 0;
-  background-image: radial-gradient(circle farthest-side at right bottom, #005623 34%, #a5a5a5 100%)
+  background-image: radial-gradient(circle farthest-side at right bottom,#005623 34%,#a5a5a5 100%)
 
   @include large {
     padding: 5rem 6rem;
