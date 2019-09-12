@@ -108,7 +108,9 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  background-color: $header-bg-color;
+  position: relative;
+  background-color: #272d4e;
+  z-index: 0;
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
