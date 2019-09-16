@@ -16,11 +16,12 @@
 用户可以使用以下 `kubelet` 标志调整以下阈值以调整 `images` 垃圾回收:   
 
 | 参数 | 参数作用 | 默认值 |
-| ----- | -----: | -----: |
+| :-----: | :-----: | :-----: |
 | `--image-gc-high-threshold` | 触发图像垃圾收集的磁盘使用百分比 | 默认值为 85％ |
 | `--image-gc-low-threshold` | 图像垃圾回收尝试释放的磁盘使用百分比 | 默认值为 80％ |
      
-     
+在 `kubelet` 配置文件添加    
+
 ```shell
 [root@node1 ~]# cat /etc/sysconfig/kubelet
 KUBELET_EXTRA_ARGS=" \
