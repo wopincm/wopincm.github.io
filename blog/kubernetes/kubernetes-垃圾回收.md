@@ -1,4 +1,4 @@
-<!-- # kubernetes-垃圾回收      -->
+# kubernetes-垃圾回收     
 标签: kubernetes     
 
 ---
@@ -19,7 +19,8 @@
 | ----- | -----: | -----: |
 | --image-gc-high-threshold | 触发图像垃圾收集的磁盘使用百分比 | 默认值为85％ |
 | --image-gc-low-threshold | 图像垃圾回收尝试释放的磁盘使用百分比 | 默认值为80％ |
-
+     
+     
 ```shell
 [root@node1 ~]# cat /etc/sysconfig/kubelet
 KUBELET_EXTRA_ARGS=" \
