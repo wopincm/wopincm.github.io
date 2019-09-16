@@ -1,5 +1,5 @@
-# kubernetes_垃圾回收     
-
+# kubernetes-垃圾回收     
+description: xxxxx         
 标签: kubernetes     
 
 ---
